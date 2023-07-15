@@ -54,7 +54,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #0505b3 0%, #0000c2 28.53%, #000066 75.52%);
+    background: linear-gradient(245.59deg, #ea941b 0%, #090000 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -163,7 +163,7 @@ section{
     padding: 12px;
     font-size: 25px;
     color: white;
-    background: #1717be;
+    background: #2b2b2b;
     border-radius: 30px;
     transition: all .50s ease;
 }
@@ -198,6 +198,33 @@ section{
     }
     .hero-text h5{
         margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1774px){
+    #menu-icon{
+        display:block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #01013c;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        margin-left: 0;
+        display: block;
+        margin: 7px 0;
+    }
+    .navlist.open{
+        right: 0;
     }
 }
 
