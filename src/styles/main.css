@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     text-decoration: none;
 }
 
@@ -112,6 +112,7 @@ section{
     border-radius: 30px;
     text-transform: uppercase;
     transition: all .55s ease;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .hero-text a:hover{
