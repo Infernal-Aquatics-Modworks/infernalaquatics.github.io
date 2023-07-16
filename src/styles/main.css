@@ -85,7 +85,7 @@ section{
     font-size: 18px;
     font-weight: 600;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .hero-text p{
@@ -93,11 +93,19 @@ section{
     font-size: 15px;
     line-height: 1.9;
     margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.hero-text img{
+    width: 400px;
+    height: auto;
+    margin-left: 80px;
 }
 
 .hero-img img{
     width: 400px;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .hero-packimg img{
