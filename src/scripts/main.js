@@ -14,5 +14,6 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.hero-text', {delay:200, origin: 'top'});
-sr.reveal('.hero-img', {delay:400, origin: 'top'});
+sr.reveal('.hero-img', {delay:400, origin: 'right'});
+sr.reveal('.hero-packimg', {delay:400, origin: 'right'});
 sr.reveal('.icons', {delay:600, origin: 'left'});

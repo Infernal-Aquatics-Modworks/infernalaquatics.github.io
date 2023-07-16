@@ -54,7 +54,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #ea941b 0%, #090000 75.52%);
+    background: linear-gradient(245.59deg, #ea941b 0%, #090000 70.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -97,6 +97,11 @@ section{
 
 .hero-img img{
     width: 400px;
+    height: auto;
+}
+
+.hero-packimg img{
+    width: 800px;
     height: auto;
 }
 
