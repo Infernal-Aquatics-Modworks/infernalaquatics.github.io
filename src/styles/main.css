@@ -131,8 +131,14 @@ section{
 }
 
 .hero-packimg img{
-    width: 800px;
+    width: 100%;
     height: auto;
+}
+
+.hero-img img{
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .hero-packs ul{
