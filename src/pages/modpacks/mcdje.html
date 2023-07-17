@@ -41,16 +41,39 @@
 
             <div class="bx bx-menu" id="menu-icon"></div>
         </header>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Minecraft Dungeons Java V0.6 Alpha</h1>
-                <h5>By - Infernal Aquatics Modworks</h5>
-                <a href="https://www.mediafire.com/file/uc2b3zmzyn6nhve/MC_Dungeons_Java_Edition_Modpack_V0.6_Alpha.zip/file">MCDJE V0.6 Alpha for MC 1.19.2</a>
+        <div class="background-container"></div>
+
+        <div class="content-container">
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Minecraft Dungeons Java V0.6 Alpha</h1>
+                    <h5>By - Infernal Aquatics Modworks</h5>
+                    <a href="https://www.mediafire.com/file/uc2b3zmzyn6nhve/MC_Dungeons_Java_Edition_Modpack_V0.6_Alpha.zip/file">MCDJE V0.6 Alpha for MC 1.19.2</a>
+                </div>
+                <div class="hero-packimg">
+                    <img src="../../images/pack-image.png">
+                </div>
+            </section>
+
+            <div class="carousel-container">
+                <div class="carousel-images">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.22.41.png" alt="Image 1">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.17.57.png" alt="Image 2">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.19.37.png" alt="Image 3">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.22.54.png" alt="Image 4">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.28.07.png" alt="Image 5">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.24.40.png" alt="Image 6">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.25.34.png" alt="Image 7">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.26.29.png" alt="Image 8">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.30.50.png" alt="Image 9">
+                    <img src="../../images/mcdjeCarousel/2023-07-15_14.29.57.png" alt="Image 10">
+                </div>
+                <div class="carousel-buttons">
+                    <button class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</button>
+                </div>
             </div>
-            <div class="hero-packimg">
-                <img src="../../images/pack-image.png">
-            </div>
-        </section>
+        </div>
 
         <div class="icons">
             <a href="https://discord.gg/Y4Pk58rvNM"><i class="ri-discord-line"></i></a>
@@ -59,14 +82,13 @@
             <a href="https://github.com/orgs/Infernal-Aquatics-Modworks/repositories"><i class="ri-github-line"></i></a>
         </div>
 
-        <div class="scroll-down">
-            <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
-        </div>
-
         <!-- ScrollReveal effect -->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!-- Custom JS Link -->
         <script src="../../scripts/main.js"></script>
+
+        <!-- Carousel JS Link -->
+        <script src="../../scripts/carousel.js"></script>
     </body>
 </html>

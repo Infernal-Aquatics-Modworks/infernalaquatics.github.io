@@ -18,3 +18,4 @@ sr.reveal('.hero-img', {delay:400, origin: 'right'});
 sr.reveal('.hero-packimg', {delay:400, origin: 'right'});
 sr.reveal('.hero-packs', {delay:400, origin: 'right'});
 sr.reveal('.icons', {delay:600, origin: 'left'});
+sr.reveal('.carousel-container', {delay:200, origin: 'left'});
