@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
-    <link rel="stylesheet" href="../styles/carousel.css">
-  </head>
-  <body>
-    <div class="carousel-container">
-        <div class="carousel-images">
-          <img src="../images/pack-image.png" alt="Image 1">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.17.57.png" alt="Image 2">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.19.37.png" alt="Image 3">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.22.41.png" alt="Image 4">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.22.54.png" alt="Image 5">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.24.40.png" alt="Image 6">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.25.34.png" alt="Image 7">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.26.29.png" alt="Image 8">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.28.07.png" alt="Image 9">
-          <img src="../images/mcdjeCarousel/2023-07-15_14.29.57.png" alt="Image 10">
-          <!-- Add more images as needed -->
-        </div>
-        <div class="carousel-buttons">
-          <button class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</button>
-          <button class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</button>
-        </div>     
-      </div>
-      <script src="../scripts/carousel.js"></script>
-  </body>
+<html>
+<head>
+    <title>Unordered List in Horizontal Wrap Layout</title>
+    <style>
+        /* Define the flexbox layout for the recognition-text div */
+        .recognition-text {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Adjust the spacing between items as desired */
+        }
+
+        /* Style the unordered list items */
+        .recognition-text ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .recognition-text li {
+            background-color: rgba(64, 64, 64, 0.7); /* Dark gray background with transparency */
+            padding: 10px;
+            flex: 0 0 calc(33.33% - 20px); /* Distribute items equally in three columns and account for the gap */
+        }
+    </style>
+</head>
+<body>
+    <div class="recognition-text">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <!-- Add more list items as needed -->
+        </ul>
+    </div>
+</body>
 </html>
